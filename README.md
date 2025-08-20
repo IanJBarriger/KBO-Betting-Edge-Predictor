@@ -64,3 +64,22 @@ The goal is to showcase applied **data science, sports analytics, and predictive
    ```bash
    git clone https://github.com/yourusername/kbo-betting-edge-predictor.git
    cd kbo-betting-edge-predictor
+   ```
+
+2. Launch Jupyter Notebook:
+
+## 📌 Future Work
+
+- Add pitcher-specific advanced stats (ERA, WHIP, FIP)
+- Include weather and travel schedule effects
+- Extend to live betting / in-game win probability models
+- Deploy model to a hosted web app (Heroku, Render, Streamlit Cloud)
+
+## 🏆 Key Skills Demonstrated
+
+- Data collection via web scraping + APIs
+- Data wrangling and feature engineering
+- Machine learning modeling (classification, calibration)
+- Backtesting & simulation of betting strategies
+- Data visualization and storytelling
+- (Optional) Web app deployment with Streamlit
