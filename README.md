@@ -67,11 +67,13 @@ The goal is to showcase applied **data science, sports analytics, and predictive
    ```
 
 2. Install Dependencies:
-   ```pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
    ```
 
 4. Launch Jupyter Notebook:
-```Jupyter Notebook
+   ```bash
+   Jupyter Notebook
    ```
 
 5. Open and explore the notebooks in the notebooks/ folder:
