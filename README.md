@@ -66,7 +66,21 @@ The goal is to showcase applied **data science, sports analytics, and predictive
    cd kbo-betting-edge-predictor
    ```
 
-2. Launch Jupyter Notebook:
+2. Install Dependencies:
+   ```pip install -r requirements.txt
+   ```
+
+4. Launch Jupyter Notebook:
+```Jupyter Notebook
+   ```
+
+5. Open and explore the notebooks in the notebooks/ folder:
+
+- 01_data_collection.ipynb → Scraping & collecting KBO data
+- 02_data_cleaning.ipynb → Cleaning & preprocessing
+- 03_feature_engineering.ipynb → Rolling stats & implied probabilities
+- 04_modeling.ipynb → Machine learning models
+- 05_backtesting.ipynb → Betting simulation & bankroll analysis
 
 ## 📌 Future Work
 
