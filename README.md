@@ -9,7 +9,7 @@ The goal is to showcase applied **data science, sports analytics, and predictive
 
 ## 🗂️ Repository Structure
 
-kbo-betting-edge-predictor/
+```kbo-betting-edge-predictor/
 ├── data/
 │   ├── raw/                # Unprocessed datasets (scraped stats, odds)
 │   ├── processed/          # Cleaned & feature-engineered datasets
@@ -33,7 +33,7 @@ kbo-betting-edge-predictor/
 ├── requirements.txt        # Python dependencies
 ├── README.md               # Project documentation
 └── LICENSE                 # (Optional) open-source license
-
+```
 
 ## Key features:
 
