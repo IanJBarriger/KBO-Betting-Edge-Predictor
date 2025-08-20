@@ -11,19 +11,25 @@
 - Simulated bankroll growth via backtesting
 - Visualizations of ROI and model calibration
 
-## Tech stack:
 
-- Python (Pandas, NumPy, Scikit-learn, XGBoost)
-- Matplotlib/Seaborn/Plotly
-- Jupyter Notebook for analysis
+## 🔍 Data Sources  
+- **KBO Official Website** ([koreabaseball.com](https://www.koreabaseball.com/)) — game results, team & player stats.  
+- **OddsPortal** (https://www.oddsportal.com/baseball/south-korea/kbo/) — historical bookmaker odds.  
+- (Optional) **TheOddsAPI** (https://theoddsapi.com/) — sports odds API for real-time betting lines.  
 
-## Results summary:
+---
 
-- ROI achieved in backtesting (if positive, highlight!)
-- Calibration curve performance
+## 🧑‍💻 Tech Stack  
+- **Python**: pandas, numpy, scikit-learn, xgboost, matplotlib, seaborn  
+- **Jupyter Notebook** for EDA and model development  
+- **Streamlit** (optional) for building an interactive web app  
+- **Tableau / Plotly** (optional) for visualization dashboards  
 
-## How to run:
-  git clone https://github.com/yourusername/kbo-betting-edge-predictor.git
-  cd kbo-betting-edge-predictor
-  pip install -r requirements.txt
-  jupyter notebook
+---
+
+## 🚀 How to Run  
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/kbo-betting-edge-predictor.git
+   cd kbo-betting-edge-predictor
