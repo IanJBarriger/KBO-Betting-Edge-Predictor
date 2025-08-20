@@ -1,8 +1,43 @@
-# KBO-Betting-Edge-Predictor
+# ⚾ KBO Betting Edge Predictor  
 
-## Project overview:
+## 📖 Overview  
+This project predicts **Korean Baseball Organization (KBO)** game outcomes and identifies potential **positive expected value (EV)** betting opportunities. Using machine learning, historical KBO game data, and betting odds, the model estimates win probabilities, compares them with bookmaker implied probabilities, and simulates bankroll growth through backtesting.  
 
-"This project predicts KBO baseball game outcomes and identifies positive expected value (EV) betting opportunities using machine learning. The pipeline covers data collection, feature engineering, modeling, and backtesting betting strategies."
+The goal is to showcase applied **data science, sports analytics, and predictive modeling** in a real-world context.  
+
+---
+
+## 🗂️ Repository Structure  
+
+kbo-betting-edge-predictor/
+│
+├── data/
+│ ├── raw/ # Unprocessed datasets (scraped stats, odds)
+│ ├── processed/ # Cleaned & feature-engineered datasets
+│ └── external/ # (Optional) extra data sources
+│
+├── notebooks/
+│ ├── 01_data_collection.ipynb # Scraping/collecting data
+│ ├── 02_data_cleaning.ipynb # Cleaning + preprocessing
+│ ├── 03_feature_engineering.ipynb # Feature engineering
+│ ├── 04_modeling.ipynb # Machine learning models
+│ ├── 05_backtesting.ipynb # Betting strategy simulation
+│ └── 06_visualizations.ipynb # Dashboards & ROI plots
+│
+├── src/
+│ ├── data_pipeline.py # Functions for loading/cleaning data
+│ ├── features.py # Feature engineering helpers
+│ ├── models.py # Training/evaluation scripts
+│ ├── backtest.py # Betting strategy simulation
+│ └── utils.py # Shared functions (metrics, configs)
+│
+├── reports/
+│ ├── figures/ # Graphs, plots, calibration charts
+│ └── results.md # Model performance & backtest summary
+│
+├── requirements.txt # Python dependencies
+├── README.md # Project documentation
+└── LICENSE # (Optional) open-source license
 
 ## Key features:
 
