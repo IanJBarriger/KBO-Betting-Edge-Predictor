@@ -7,37 +7,33 @@ The goal is to showcase applied **data science, sports analytics, and predictive
 
 ---
 
-## 🗂️ Repository Structure  
+## 🗂️ Repository Structure
 
 kbo-betting-edge-predictor/
-│
 ├── data/
-│ ├── raw/ # Unprocessed datasets (scraped stats, odds)
-│ ├── processed/ # Cleaned & feature-engineered datasets
-│ └── external/ # (Optional) extra data sources
-│
+│   ├── raw/                # Unprocessed datasets (scraped stats, odds)
+│   ├── processed/          # Cleaned & feature-engineered datasets
+│   └── external/           # (Optional) extra data sources
 ├── notebooks/
-│ ├── 01_data_collection.ipynb # Scraping/collecting data
-│ ├── 02_data_cleaning.ipynb # Cleaning + preprocessing
-│ ├── 03_feature_engineering.ipynb # Feature engineering
-│ ├── 04_modeling.ipynb # Machine learning models
-│ ├── 05_backtesting.ipynb # Betting strategy simulation
-│ └── 06_visualizations.ipynb # Dashboards & ROI plots
-│
+│   ├── 01_data_collection.ipynb     # Scraping & collecting KBO data
+│   ├── 02_data_cleaning.ipynb       # Cleaning & preprocessing
+│   ├── 03_feature_engineering.ipynb # Feature engineering
+│   ├── 04_modeling.ipynb            # Machine learning models
+│   ├── 05_backtesting.ipynb         # Betting strategy simulation
+│   └── 06_visualizations.ipynb      # Dashboards & ROI plots
 ├── src/
-│ ├── data_pipeline.py # Functions for loading/cleaning data
-│ ├── features.py # Feature engineering helpers
-│ ├── models.py # Training/evaluation scripts
-│ ├── backtest.py # Betting strategy simulation
-│ └── utils.py # Shared functions (metrics, configs)
-│
+│   ├── data_pipeline.py    # Functions for loading/cleaning data
+│   ├── features.py         # Feature engineering helpers
+│   ├── models.py           # Training/evaluation scripts
+│   ├── backtest.py         # Betting strategy simulation
+│   └── utils.py            # Shared functions (metrics, configs)
 ├── reports/
-│ ├── figures/ # Graphs, plots, calibration charts
-│ └── results.md # Model performance & backtest summary
-│
-├── requirements.txt # Python dependencies
-├── README.md # Project documentation
-└── LICENSE # (Optional) open-source license
+│   ├── figures/            # Graphs, plots, calibration charts
+│   └── results.md          # Model performance & backtest summary
+├── requirements.txt        # Python dependencies
+├── README.md               # Project documentation
+└── LICENSE                 # (Optional) open-source license
+
 
 ## Key features:
 
